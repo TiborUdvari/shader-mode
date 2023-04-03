@@ -1,4 +1,4 @@
-# Improve Shader mode for Processing: Support for the Latest Version, Updated Documentation, and Live Reloading
+# Improve Shader mode: Support for the Latest PDE Version, Documentation Update and Live Reloading
 [Shader mode](https://github.com/Izza11/shader-mode), created by [Izza Tariq](https://github.com/Izza11), enables people to code GLSL shaders directly in the Processing Development Environment (PDE), however it is not currently compatible with the latest version of Processing. This project aims to update Shader Mode for Processing 4 and distribute it via the Processing Contribution Manager. 
 
 Additionally, the project will enhance existing resources, such as documentation, tutorials and examples, to better support people in learning shader programming. 
@@ -7,9 +7,8 @@ Furthermore, the introduction of live reloading will improve the user experience
 
 |Key information||
 |---|---|
-| Mentor | [TODO: TBD (Potentially [Andres Colubri](https://github.com/codeanticode) or [Izza Tariq](https://github.com/Izza11)) ]|
 | Student Name | [Tibor Udvari](https://github.com/TiborUdvari) |
-| Project size | ~175 hours or 350 hours [TODO: can get 8 weeks of coding time 100%, maybe something in between 175 and 350 hours, if that is possible 🤔 ] | 
+| Project size | ~175 hours | 
 | E-mail | [gsoc23@tib.mozmail.com](mailto:gsoc23@tib.mozmail.com) |
 | Discourse | [@TiborUdvari](https://discourse.processing.org/u/tiborudvari/summary) |
 | GitHub | [@TiborUdvari](https://github.com/TiborUdvari) |
@@ -25,8 +24,6 @@ Processing is renowed for it's beginner friendly interface  and ease of use, mak
 ## Milestones and calendar
 Taking into account my summer availability, which falls outside of the Standard Coding Period, I have devised an 8 week plan using [Github Projects and issues](https://github.com/users/TiborUdvari/projects/2/views/3). The breadown of the plan is as follows:
 
-[TODO: I'm not 100% sure this should be a "self-sufficient" document by itself, the points should be probably fleshed out a little more if I can't link to GH issues]
-
 ![Planning](./planning.png)
 
 ### [Community Bonding Period](https://github.com/TiborUdvari/shader-mode/issues/3)
@@ -40,14 +37,14 @@ Taking into account my summer availability, which falls outside of the Standard 
 * Repair shader-mode running issue
 * Publish via contribution manager
 
-Points here are quite vague and need expanding upon. Depending on the complexity of the contribution manager, I would like to simply publish the minimal fix as soon as possible, before adding other features.
+![Shader error](./shader-error.png)
 
 ### [Milestone 2: Document Shader Mode (3 weeks)](https://github.com/TiborUdvari/shader-mode/issues/12)
-* Revisit PShader tutorial 
-* Propose additional examples
+* Revisit [PShader tutorial by Andres Colubri](https://web.archive.org/web/20210419055927/https://processing.org/tutorials/pshader/), from the `Shader > Getting Started` menu
+* Propose additional examples, being inspired from popular tutorials such as [The book of shaders](https://thebookofshaders.com/)
 
 ### [Milestone 3: Live Reloading (2 weeks)](https://github.com/TiborUdvari/shader-mode/issues/14)
-* Implement with lessons learned from tweak mode
+* Implement with lessons learned from tweak mode, which is a feature in Processing that enables users to modify any numerical values in the program while it is running. This approach can facilitate workflows similar to those found in other shader editors.
 
 ### [Final week (1 week)](https://github.com/TiborUdvari/shader-mode/issues/18)
 
