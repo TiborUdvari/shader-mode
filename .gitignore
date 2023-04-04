@@ -2,3 +2,4 @@
 bin/
 mode/ShaderMode.jar
 release/ShaderMode.zip
+*.pdf
